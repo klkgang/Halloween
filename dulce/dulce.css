@@ -1,0 +1,25 @@
+body{
+    background-color: orange;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center ;
+    height: 20vh;
+    font-size: 300%;
+}
+
+.texto{
+    justify-content: center;
+    display: flex;
+    align-items: center ;
+    height: 15vh;
+    font-family: sans-serif;
+}
+
