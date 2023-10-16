@@ -9,5 +9,17 @@ function suerteDeUsuario() {
 function eventoDespues(){
     const resultadoDiv = document.getElementById("resultado");
     const suerteObtenida = suerteDeUsuario();
-    resultadoDiv.innerHTML = `<p>Tu suerte es: ${suerteObtenida}</p>`;
+    
+    switch (suerteObtenida) {
+        case 'dulce':
+            window.location.href="dulce/dulce.html";
+            break;
+        case 'truco':
+            window.location.href="truco/truco.html";
+            break;
+        case 'screamer':
+            window.location.href = "screamer/screamer.html";
+            break;
+    
+        }
 }

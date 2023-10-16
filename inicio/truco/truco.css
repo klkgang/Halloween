@@ -1,0 +1,27 @@
+body{
+    background-color:whitesmoke;}
+.texto{
+    color: red;
+    font-size: 90px;
+    justify-content: center;
+    display: flex;
+    align-items: center ;
+    height: 90vh;
+
+    animation: teclear 3s steps(16), efecto .5s step-end infinite alternate; 
+}
+
+@keyframes teclear {
+    from {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+@keyframes efecto {
+    50% {
+        border-color: transparent;
+    }
+}
