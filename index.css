@@ -1,0 +1,18 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    background-color:#2F4F4F;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+
+}
