@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DULCE!!!!!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dulce.css">
+</head> 
+<script>
+    if (sessionStorage.getItem("pageRefreshed")) {
+     window.location.href="../index.html";
+
+     sessionStorage.removeItem("pageRefreshed")
+    } else {
+     console.log("Page loaded for the first time")
+    }
+ window.addEventListener("beforeunload", function () {
+     sessionStorage.setItem("pageRefreshed",  "true");
+ });
+ </script>
+</body>
+</html>

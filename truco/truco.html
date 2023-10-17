@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUCO!!</title>
+    <link rel="stylesheet" type="text/css" href="truco.css">
+</head>
+
+<body>
+    <article class="texto">
+        I'm Waching You
+    </article>
+
+    <!--Code for every time -->>
+    <script>
+       if (sessionStorage.getItem("pageRefreshed")) {
+        window.location.href="../index.html";
+
+        sessionStorage.removeItem("pageRefreshed")
+       } else {
+        console.log("Page loaded for the first time")
+       }
+    window.addEventListener("beforeunload", function () {
+        sessionStorage.setItem("pageRefreshed",  "true");
+    });
+    </script>
+
+
+</body>
+
+
+</html>
