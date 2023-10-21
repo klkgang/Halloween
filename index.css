@@ -1,5 +1,5 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; 
     justify-content: center;
     background-color:#2F4F4F;
 }
@@ -29,3 +29,5 @@ body{
 .boton:hover{
     background-color: #8B0000;
 }
+
+/*  */

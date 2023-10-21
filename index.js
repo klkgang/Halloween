@@ -10,6 +10,7 @@ function eventoDespues(){
     const resultadoDiv = document.getElementById("resultado");
     const suerteObtenida = suerteDeUsuario();
     
+    //main logic of the program
     switch (suerteObtenida) {
         case 'dulce':
             window.location.href="dulce/dulce.html";
