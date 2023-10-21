@@ -1,0 +1,3 @@
+-With the idea in mind I started working on the HTML (I mean the basic structure of the page) 
+-Then with the HTML done I did the ccs 
+-Then with the HTML and css done I simply added and connected everything with javascript.
