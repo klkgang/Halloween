@@ -1,25 +1,26 @@
+
 body{
-    background-color: orange;
+    background-color: #FF8C00;
     display: flex;
-    flex-direction: column; /* Alinea los elementos en columna */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+
 p{
     font-family: sans-serif;
-    justify-content: center;
     display: flex;
-    align-items: center ;
-    height: 20vh;
-    font-size: 300%;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 3em;
 }
 
-.texto{
-    justify-content: center;
-    display: flex;
-    align-items: center ;
-    height: 15vh;
-    font-family: sans-serif;
-}
 
+
+img{
+    width: 40%;
+    height: auto;
+    border-image-width: 0%;
+}

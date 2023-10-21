@@ -11,22 +11,6 @@
     <article class="texto">
         I'm Waching You
     </article>
-
-    <!--Code for every time -->>
-    <script>
-       if (sessionStorage.getItem("pageRefreshed")) {
-        window.location.href="../index.html";
-
-        sessionStorage.removeItem("pageRefreshed")
-       } else {
-        console.log("Page loaded for the first time")
-       }
-    window.addEventListener("beforeunload", function () {
-        sessionStorage.setItem("pageRefreshed",  "true");
-    });
-    </script>
-
-
 </body>
 
 

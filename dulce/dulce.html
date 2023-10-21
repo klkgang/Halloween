@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="dulce.css">
 </head> 
-<script>
-    if (sessionStorage.getItem("pageRefreshed")) {
-     window.location.href="../index.html";
 
-     sessionStorage.removeItem("pageRefreshed")
-    } else {
-     console.log("Page loaded for the first time")
-    }
- window.addEventListener("beforeunload", function () {
-     sessionStorage.setItem("pageRefreshed",  "true");
- });
- </script>
+<body>
+
+<div id="parrafo">
+    <p>Congrats</p>
+</div>
+
+<div id="texto">
+    <p>You Got A Candy</p>
+</div>
+
+<img id="imagen" src="https://www.bhg.com/thmb/hXGitX5759Ysns4hWC72hq6677s=/1983x0/filters:no_upscale():strip_icc()/History-candy-corn-4ab62bab8f9743779c52b6a652fa760c.jpg" alt="JAJAJJAJAJAAJ">
+
 </body>
 </html>

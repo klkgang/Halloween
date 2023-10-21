@@ -12,7 +12,20 @@ body{
 }
 
 .boton{
-    background-color: black;
-    color: white;
+        background-color: #A9A9A9; 
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+}
 
+.boton:hover{
+    background-color: #8B0000;
 }
