@@ -5,7 +5,7 @@ This is one of my first projects coded in html, css and javascript. It's a simpl
 and it works by first letting the user see a screen with a button that says "try your luck" and then
 the user can get 3 different results
 
--The fisrt result called "sweet" which is the good result where the user
+-The fisrt result called "dulce" which is the good result where the user
 a screen appears that says "you got a candy"
 
 -The second result is the "dulce" this result writes in the
@@ -20,7 +20,7 @@ creepy photo of a gost on the screen (you can easily put the image you want and 
 
 
 I had the idea of this project because we are in spooky season so i wanted to make a game to share with my friends 
-so since I'm in a AP cumputers science class I decided to used the html,css and javascript I been getting.
+so since I'm in a AP cumputers science class I decided to used the html,css and javascript experience I been getting.
 
 
 ========================================================
@@ -37,7 +37,7 @@ the program take the user to one page or another, then I just made the other pag
 
 ======================= GOAL OF THE PROJECT =======================
 
-My goal was to practice and to share a base for the community that everyone could use for their own projects.
+My goal was to practice and to share a base that you can edit easily for the community that everyone could use for their own projects.
 
 
 ====================================================================
